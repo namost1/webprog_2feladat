@@ -1,0 +1,90 @@
+.tarolo {
+    width: 800px;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#zold, #sarga {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+#lila {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.tarolo2 {
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#masodik_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#masodik_ul > li {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin-right: 10px;
+}
+
+.tarolo3 {
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+#harmadik_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#harmadik_ul > li {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.tarolo4 {
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#negyedik_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#negyedik_ul > li {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin-left: 10px;
+}
